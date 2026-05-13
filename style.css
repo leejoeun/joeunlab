@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f7f7f4;
+  color: #1f2933;
+}
+
+main {
+  min-height: 100vh;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eyebrow {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 56px;
+  margin: 12px 0;
+}
+
+.description {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+.links {
+  margin-top: 32px;
+  display: flex;
+  gap: 12px;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
